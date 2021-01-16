@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users and Posts</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="./form_processor.php" method="POST">
+            <div> <label for="username">User name:</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div>
+                <label for="email">User Email:</label> 
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div> 
+                <label for="post_title">Post Title:</label> 
+                <input type="text" name="post_title" id="post_title" required>
+            </div>
+            <div>
+                <label for="post_body">Post Body:</label> 
+                 <textarea name="post_body" id="post_body" cols="30" rows="10" required></textarea>
+            </div>
+            <input type="submit" value="Submit Form">
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
